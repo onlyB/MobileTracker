@@ -1,0 +1,152 @@
+<class-diagram version="1.0.11" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true">  
+  <class id="1" corner="BOTTOM_RIGHT" language="java" name="com.dhsoft.mobiletracker.activation.EmailActivation" 
+    project="MobileTracker" file="/MobileTracker/src/com/dhsoft/mobiletracker/activation/EmailActivation.java" 
+    binary="false">    
+    <position height="78" width="185" x="277" y="357"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="false"/>      
+      <operations public="true" package="true" protected="true" private="false"/>    
+    </display>  
+  </class>  
+  <class id="2" corner="BOTTOM_RIGHT" language="java" name="com.dhsoft.mobiletracker.ApplicationContext" 
+    project="MobileTracker" file="/MobileTracker/src/com/dhsoft/mobiletracker/ApplicationContext.java" binary="false">    
+    <position height="-1" width="-1" x="126" y="144"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="false"/>      
+      <operations public="true" package="true" protected="true" private="false"/>    
+    </display>  
+  </class>  
+  <class id="3" corner="BOTTOM_RIGHT" language="java" name="com.dhsoft.mobiletracker.LoginActivity" 
+    project="MobileTracker" file="/MobileTracker/src/com/dhsoft/mobiletracker/LoginActivity.java" binary="false">    
+    <position height="-1" width="-1" x="384" y="89"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="false"/>      
+      <operations public="true" package="true" protected="true" private="false"/>    
+    </display>  
+  </class>  
+  <class id="4" corner="BOTTOM_RIGHT" language="java" name="com.dhsoft.mobiletracker.MainActivity" 
+    project="MobileTracker" file="/MobileTracker/src/com/dhsoft/mobiletracker/MainActivity.java" binary="false">    
+    <position height="-1" width="-1" x="622" y="182"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="false"/>      
+      <operations public="true" package="true" protected="true" private="false"/>    
+    </display>  
+  </class>  
+  <class id="5" corner="BOTTOM_RIGHT" language="java" name="com.dhsoft.mobiletracker.MainService" 
+    project="MobileTracker" file="/MobileTracker/src/com/dhsoft/mobiletracker/MainService.java" binary="false">    
+    <position height="-1" width="-1" x="824" y="105"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="false"/>      
+      <operations public="true" package="true" protected="true" private="false"/>    
+    </display>  
+  </class>  
+  <class id="6" corner="BOTTOM_RIGHT" language="java" name="com.dhsoft.mobiletracker.SettingActivity" 
+    project="MobileTracker" file="/MobileTracker/src/com/dhsoft/mobiletracker/SettingActivity.java" binary="false">    
+    <position height="-1" width="-1" x="978" y="81"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="false"/>      
+      <operations public="true" package="true" protected="true" private="false"/>    
+    </display>  
+  </class>  
+  <class id="7" corner="BOTTOM_RIGHT" language="java" name="com.dhsoft.mobiletracker.configuration.ApplicationConfigs" 
+    project="MobileTracker" file="/MobileTracker/src/com/dhsoft/mobiletracker/configuration/ApplicationConfigs.java" 
+    binary="false">    
+    <position height="-1" width="-1" x="119" y="609"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="false"/>      
+      <operations public="true" package="true" protected="true" private="false"/>    
+    </display>  
+  </class>  
+  <class id="8" corner="BOTTOM_RIGHT" language="java" name="com.dhsoft.mobiletracker.receiver.OnBootComplete" 
+    project="MobileTracker" file="/MobileTracker/src/com/dhsoft/mobiletracker/receiver/OnBootComplete.java" 
+    binary="false">    
+    <position height="95" width="186" x="275" y="453"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="false"/>      
+      <operations public="true" package="true" protected="true" private="false"/>    
+    </display>  
+  </class>  
+  <class id="9" corner="BOTTOM_RIGHT" language="java" name="com.dhsoft.mobiletracker.sending.SendEmail" 
+    project="MobileTracker" file="/MobileTracker/src/com/dhsoft/mobiletracker/sending/SendEmail.java" binary="false">    
+    <position height="-1" width="-1" x="609" y="412"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="false"/>      
+      <operations public="true" package="true" protected="true" private="false"/>    
+    </display>  
+  </class>  
+  <class id="10" corner="BOTTOM_RIGHT" language="java" name="com.dhsoft.mobiletracker.sending.SendSms" 
+    project="MobileTracker" file="/MobileTracker/src/com/dhsoft/mobiletracker/sending/SendSms.java" binary="false">    
+    <position height="-1" width="-1" x="588" y="542"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="false"/>      
+      <operations public="true" package="true" protected="true" private="false"/>    
+    </display>  
+  </class>  
+  <class id="11" corner="BOTTOM_RIGHT" language="java" name="com.dhsoft.mobiletracker.tracking.LocationTracking" 
+    project="MobileTracker" file="/MobileTracker/src/com/dhsoft/mobiletracker/tracking/LocationTracking.java" 
+    binary="false">    
+    <position height="-1" width="-1" x="370" y="725"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="false"/>      
+      <operations public="true" package="true" protected="true" private="false"/>    
+    </display>  
+  </class>  
+  <class id="12" corner="BOTTOM_RIGHT" language="java" name="com.dhsoft.mobiletracker.tracking.MediaTracking" 
+    project="MobileTracker" file="/MobileTracker/src/com/dhsoft/mobiletracker/tracking/MediaTracking.java" 
+    binary="false">    
+    <position height="-1" width="-1" x="592" y="743"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="false"/>      
+      <operations public="true" package="true" protected="true" private="false"/>    
+    </display>  
+  </class>  
+  <class id="13" corner="BOTTOM_RIGHT" language="java" name="com.dhsoft.mobiletracker.tracking.NetworkTracking" 
+    project="MobileTracker" file="/MobileTracker/src/com/dhsoft/mobiletracker/tracking/NetworkTracking.java" 
+    binary="false">    
+    <position height="-1" width="-1" x="804" y="721"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="false"/>      
+      <operations public="true" package="true" protected="true" private="false"/>    
+    </display>  
+  </class>  
+  <class id="14" corner="BOTTOM_RIGHT" language="java" name="com.dhsoft.mobiletracker.tracking.PhoneNumberTracking" 
+    project="MobileTracker" file="/MobileTracker/src/com/dhsoft/mobiletracker/tracking/PhoneNumberTracking.java" 
+    binary="false">    
+    <position height="-1" width="-1" x="1027" y="726"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="false"/>      
+      <operations public="true" package="true" protected="true" private="false"/>    
+    </display>  
+  </class>  
+  <class id="15" corner="BOTTOM_RIGHT" language="java" name="com.dhsoft.mobiletracker.utils.EmailUtils" 
+    project="MobileTracker" file="/MobileTracker/src/com/dhsoft/mobiletracker/utils/EmailUtils.java" binary="false">    
+    <position height="-1" width="-1" x="903" y="464"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="false"/>      
+      <operations public="true" package="true" protected="true" private="false"/>    
+    </display>  
+  </class>  
+  <class id="16" corner="BOTTOM_RIGHT" language="java" name="com.dhsoft.mobiletracker.utils.SmsUtils" 
+    project="MobileTracker" file="/MobileTracker/src/com/dhsoft/mobiletracker/utils/SmsUtils.java" binary="false">    
+    <position height="95" width="203" x="754" y="229"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="false"/>      
+      <operations public="true" package="true" protected="true" private="false"/>    
+    </display>  
+  </class>  
+  <association id="17">    
+    <end type="SOURCE" refId="7" navigable="false">      
+      <attribute id="18" name="instance_"/>      
+      <multiplicity id="19" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true"/>    
+    <operations public="true" package="true" protected="true" private="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory
+        android:key="first_category"
+        android:title="Account" >
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="ENABLED_ACCOUNT"
+            android:summary="Required login by enter account &amp; password for use this application"
+            android:title="Enable account" />
+
+        <EditTextPreference
+            android:defaultValue="user"
+            android:dependency="ENABLED_ACCOUNT"
+            android:dialogMessage="Enter your user name"
+            android:dialogTitle="Account"
+            android:key="ACCOUNT"
+            android:summary="Change your username"
+            android:title="Username" />
+        <EditTextPreference
+            android:defaultValue="password"
+            android:dependency="ENABLED_ACCOUNT"
+            android:dialogMessage="Enter your password"
+            android:dialogTitle="Password"
+            android:key="PASSWORD"
+            android:summary="Change your password"
+            android:title="Password" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="second_category"
+        android:title="Phone, Email" >
+        <EditTextPreference
+            android:defaultValue=""
+            android:dialogMessage="Enter phone number like +84912 345 678"
+            android:dialogTitle="Spare phone numbers"
+            android:key="PHONE_NUMBER"
+            android:summary="Tracking information will be sent to this phone number"
+            android:title="Spare phone number" />
+        <EditTextPreference
+            android:defaultValue=""
+            android:dialogMessage="Enter email like user@gmail.com"
+            android:dialogTitle="Spare email"
+            android:key="EMAIL"
+            android:summary="Tracking information will be sent to this email"
+            android:title="Spare email" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="third_category"
+        android:title="Activation contents" >
+        <EditTextPreference
+            android:defaultValue="Activation content 1"
+            android:dialogMessage="Enter your activation content"
+            android:dialogTitle="Activation content 1"
+            android:key="ACTIVE_CONTENT1"
+            android:summary="Content of sms activation to active tracking mode"
+            android:title="Activation content" />
+        <EditTextPreference
+            android:defaultValue="Activation content 2"
+            android:dialogMessage="Enter your activation content"
+            android:dialogTitle="Activation content 2"
+            android:key="ACTIVE_CONTENT2"
+            android:summary="Content of sms activation to active tracking mode"
+            android:title="Activation content 2" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="fourth_category"
+        android:title="Tracking to" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="ENABLED_EMAIL"
+            android:summary="Allow to send tracking information to your email"
+            android:title="Enable email" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="ENABLED_SMS"
+            android:summary="Allow to send tracking information to your phone by SMS"
+            android:title="Enable SMS" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="fifth_category"
+        android:title="Tracking options" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="ENABLED_LOCATION_TRACKING"
+            android:summary="Enable location tracking, get location information base GPS"
+            android:title="Location" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="ENABLED_NETWORK_TRACKING"
+            android:summary="Enable network tracking, get network (Wifi, 3G) information"
+            android:title="Network" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="ENABLED_PHOTO_CAPTURE"
+            android:summary="Enable capturing photo, use Face Front camera if exist"
+            android:title="Photo capture" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="ENABLED_AUDIO_RECORDING"
+            android:summary="Enable recording audio"
+            android:title="Audio recording" />
+       
+        <ListPreference
+            android:defaultValue="10"
+            android:dependency="ENABLED_AUDIO_RECORDING"
+            android:entries="@array/audioRecordingTime"
+            android:entryValues="@array/audioRecordingTimeValues"
+            android:key="AUDIO_RECORDING_TIME"
+            android:summary="Recording time (s)"
+            android:title="Recording time" />
+        
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="ALWAYS_NOTIFY_NEW_PHONENUMBER"
+            android:summary="Always notify (to sms/email) new phone number when a new sim card inserted your phone"
+            android:title="Always notify new phone number" />
+
+        <ListPreference
+            android:defaultValue="600"
+            android:entries="@array/trackingInterval"
+            android:entryValues="@array/trackingIntervalValues"
+            android:key="INTERVAL"
+            android:summary="Define how often tracking will be performed"
+            android:title="Tracking interval" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
